@@ -119,7 +119,3 @@ After login the session is saved — you won't be asked again until it expires.
 - If your API Hash was ever exposed publicly, rotate it at [my.telegram.org](https://my.telegram.org)
 
 ---
-
-## License
-
-MIT
