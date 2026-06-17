@@ -1,0 +1,32 @@
+# -----------------------------------------------------------------------------
+# Gilfoyle — inspired by Bertram Gilfoyle from Silicon Valley (HBO)
+# "I'm not really a people person. Which is why I have a bot do it for me."
+# -----------------------------------------------------------------------------
+
+# Telegram secrets — treat these like your soul, Gilfoyle-style: protect them
+.env
+*.session
+*.session-journal
+
+# Runtime data — your conversations, whitelist, saved credentials
+# None of this belongs on the internet
+data/
+backend/data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+.vite/
+
+# Editor / OS noise
+.DS_Store
+.idea/
+.vscode/
+Thumbs.db
